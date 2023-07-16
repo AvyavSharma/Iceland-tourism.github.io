@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Raleway;
+}
+.home {
+  height: 108vh;
+  background-image: url(home1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.home h1 {
+  color: white;
+  font-size: 6em;
+  padding-top: 32%;
+  padding-left: 20%;
+  font-weight: bold;
+}
+.home h6 {
+  color: white;
+  padding-top: 32%;
+  padding-left: 36.5%;
+  position: absolute;
+}
+.home hr {
+  width: 14vw;
+  margin-top: 32.5%;
+  margin-left: 21%;
+  position: absolute;
+}
+#homep {
+  color: white;
+  font-size: 1em;
+  padding-left: 20%;
+}
+.nature {
+  height: 100vh;
+  background-color: #f6ffec;
+}
+.naturebox {
+  height: 75vh;
+  width: 60vw;
+  background-color: rgb(204, 226, 238);
+  position: absolute;
+  margin-top: -8vh;
+  right: 7vw;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(97, 123, 138);
+}
+.naturebox h1 {
+  font-size: 4em;
+  color: #494949;
+  padding-left: 40%;
+  padding-top: 7%;
+  text-decoration: underline;
+}
+.naturebox p {
+  font-size: 0.9em;
+  color: rgb(97, 96, 96);
+  padding-left: 57%;
+  padding-right: 5%;
+  padding-top: 5%;
+  text-align: justify;
+}
+.naturepic {
+  height: 65vh;
+  width: 55vw;
+  position: absolute;
+  background-color: white;
+  background-image: url(mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  position: absolute;
+  margin-top: -80vh;
+  left: 7vw;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+  z-index: 5;
+}
+.naturepic section {
+  height: 65vh;
+  width: 7vw;
+  right: 0px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 20;
+}
+#snowflake {
+  height: 13%;
+  z-index: 30;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+/* #skiing {
+  height: 13%;
+  z-index: 50;
+  margin-left: 20%;
+  margin-top: 15%;
+} */
+.mountains {
+  height: 70vh;
+  background-color: #f6ffec;
+}
+.mountains h1 {
+  padding-top: 10vh;
+  padding-left: 45vw;
+  font-size: 4em;
+  color: #494949;
+}
+.mountains p {
+  padding-top: 10vh;
+  padding-left: 45vw;
+  font-size: 1em;
+  color: #494949;
+  padding-right: 10vw;
+}
